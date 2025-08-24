@@ -51,3 +51,35 @@ v
 |
 v
 [ Telegram Response ]
+
+
+📖 Usage
+
+Open Telegram and start chatting with your bot.
+
+Ask questions like:
+
+"What topics are covered in Unit 3 of Data Structures?"
+
+"Give me the syllabus for Computer Networks."
+
+The bot retrieves relevant information from the syllabus files and answers in natural language.
+
+🔮 Future Improvements
+
+✅ Multi-user personalized recommendations
+
+✅ Integration with more document sources (PDFs, OneDrive, Notion)
+
+✅ Advanced analytics (FAQs, usage logs, trending topics)
+
+✅ Support for multiple languages
+
+🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to improve.
+
+📜 License
+
+This project is licensed under the MIT License – see the LICENSE
+ file for details.
