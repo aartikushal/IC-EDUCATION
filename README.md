@@ -25,3 +25,29 @@ The **Syllabus Advisor Bot** is an intelligent assistant that helps students, te
 ## 📊 Architecture Flow
 
 ### Simple Flow
+[ User on Telegram ]
+|
+v
+[ Telegram Bot ]
+|
+v
+(Webhook via n8n)
+|
+v
+[ n8n Workflow Orchestrator ]
+| |
+| v
+| [ OpenAI Embeddings ]
+| |
+| v
+| [ Pinecone Vector DB ]
+| |
+| (Retrieve context)
+| |
++-----> [ OpenAI Chat Model ]
+|
+v
+[ Answer Generated ]
+|
+v
+[ Telegram Response ]
